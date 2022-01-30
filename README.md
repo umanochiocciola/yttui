@@ -5,9 +5,7 @@ YouTube TUI - Watch videos without even opening the browser
 ## Installation
 
 clone and cd in the directory, then run
-```
-./install.sh
-```
+```./install.sh```
 this will make the yttui command avaiable
 
 ## Requirements
@@ -16,9 +14,7 @@ mvp (```apt install mpv```)
 
 ## Usage
 to start, just run
-```
-yttui
-```
+```yttui```
 then search for something and follow instrucitons.
 There are additional arguments you can use:
 ```

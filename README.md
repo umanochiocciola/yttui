@@ -26,3 +26,11 @@ interal-len is optional, change <len> to the amount of titles you wish to be loa
 ```
 type ```yttui help``` to see this message.
 
+## Lag
+If your video lags, it's becaus mpv will try to get the best quality, to make it less laggy, put
+
+ytdl-format=bestvideo[height<=?480]+bestaudio/best
+
+in ~/.config/mpv/mpv.conf
+
+(change that 480 to the max quality you wanna accept)
